@@ -133,12 +133,12 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_USE_TLS = True
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "ahmadfaizuddin17@gmail.com"
-EMAIL_HOST_PASSWORD = "vousdypdnnaqynww"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
 
-AWS_ACCESS_KEY_ID = "AKIA6MS6KZBVFY47I4UH"
-AWS_SECRET_ACCESS_KEY = "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"
-AWS_STORAGE_BUCKET_NAME = "faiz-django-files"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+AWS_STORAGE_BUCKET_NAME = ""
 
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
